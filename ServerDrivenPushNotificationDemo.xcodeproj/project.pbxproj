@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D40A8CB2256E4D5000F971C /* Page1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D40A8CA2256E4D5000F971C /* Page1Controller.xib */; };
+		3D40A8CD2256E4E6000F971C /* Page2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D40A8CC2256E4E6000F971C /* Page2Controller.xib */; };
+		3D40A8CF2256E4F2000F971C /* Page3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D40A8CE2256E4F2000F971C /* Page3Controller.xib */; };
+		3D40A8D12256E4FD000F971C /* Page4Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D40A8D02256E4FD000F971C /* Page4Controller.xib */; };
+		3D40A8D32256E582000F971C /* Page1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D40A8D22256E582000F971C /* Page1Controller.swift */; };
+		3D40A8D52256E58D000F971C /* Page2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D40A8D42256E58D000F971C /* Page2Controller.swift */; };
+		3D40A8D72256E597000F971C /* Page3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D40A8D62256E597000F971C /* Page3Controller.swift */; };
+		3D40A8D92256E5A2000F971C /* Page4Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D40A8D82256E5A2000F971C /* Page4Controller.swift */; };
+		3D7974A6224DA9500042E398 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7974A5224DA9500042E398 /* NotificationViewController.swift */; };
+		3D7974A8224DA99B0042E398 /* NotificationViewController+TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7974A7224DA99B0042E398 /* NotificationViewController+TableViewDelegate.swift */; };
+		3D7974AA224DAA950042E398 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7974A9224DAA950042E398 /* NotificationViewController.xib */; };
+		3D7974B1224DAC840042E398 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7974AF224DAC840042E398 /* NotificationTableViewCell.swift */; };
+		3D7974B2224DAC840042E398 /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D7974B0224DAC840042E398 /* NotificationTableViewCell.xib */; };
+		3D8E6644224C0D2D001E57FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E6643224C0D2D001E57FD /* AppDelegate.swift */; };
+		3D8E6646224C0D2D001E57FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E6645224C0D2D001E57FD /* ViewController.swift */; };
+		3D8E6649224C0D2D001E57FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E6647224C0D2D001E57FD /* Main.storyboard */; };
+		3D8E664C224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E664A224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.xcdatamodeld */; };
+		3D8E664E224C0D30001E57FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E664D224C0D30001E57FD /* Assets.xcassets */; };
+		3D8E6651224C0D30001E57FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8E664F224C0D30001E57FD /* LaunchScreen.storyboard */; };
+		9B17D0B9E91DCD185EB347D9 /* Pods_ServerDrivenPushNotificationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C624F7CD69584FC1AF4FC50A /* Pods_ServerDrivenPushNotificationDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E5894899B99D4C09614171E /* Pods-ServerDrivenPushNotificationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerDrivenPushNotificationDemo.release.xcconfig"; path = "Target Support Files/Pods-ServerDrivenPushNotificationDemo/Pods-ServerDrivenPushNotificationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3D40A8CA2256E4D5000F971C /* Page1Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page1Controller.xib; sourceTree = "<group>"; };
+		3D40A8CC2256E4E6000F971C /* Page2Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page2Controller.xib; sourceTree = "<group>"; };
+		3D40A8CE2256E4F2000F971C /* Page3Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page3Controller.xib; sourceTree = "<group>"; };
+		3D40A8D02256E4FD000F971C /* Page4Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page4Controller.xib; sourceTree = "<group>"; };
+		3D40A8D22256E582000F971C /* Page1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1Controller.swift; sourceTree = "<group>"; };
+		3D40A8D42256E58D000F971C /* Page2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2Controller.swift; sourceTree = "<group>"; };
+		3D40A8D62256E597000F971C /* Page3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3Controller.swift; sourceTree = "<group>"; };
+		3D40A8D82256E5A2000F971C /* Page4Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4Controller.swift; sourceTree = "<group>"; };
+		3D7974A5224DA9500042E398 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		3D7974A7224DA99B0042E398 /* NotificationViewController+TableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationViewController+TableViewDelegate.swift"; sourceTree = "<group>"; };
+		3D7974A9224DAA950042E398 /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		3D7974AF224DAC840042E398 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		3D7974B0224DAC840042E398 /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		3D8E6640224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerDrivenPushNotificationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8E6643224C0D2D001E57FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D8E6645224C0D2D001E57FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D8E6648224C0D2D001E57FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D8E664B224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ServerDrivenPushNotificationDemo.xcdatamodel; sourceTree = "<group>"; };
+		3D8E664D224C0D30001E57FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D8E6650224C0D30001E57FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D8E6652224C0D30001E57FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8E6658224C0D72001E57FD /* ServerDrivenPushNotificationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ServerDrivenPushNotificationDemo.entitlements; sourceTree = "<group>"; };
+		C624F7CD69584FC1AF4FC50A /* Pods_ServerDrivenPushNotificationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServerDrivenPushNotificationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7BFCE5760FA9F7166B0056 /* Pods-ServerDrivenPushNotificationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerDrivenPushNotificationDemo.debug.xcconfig"; path = "Target Support Files/Pods-ServerDrivenPushNotificationDemo/Pods-ServerDrivenPushNotificationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D8E663D224C0D2D001E57FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B17D0B9E91DCD185EB347D9 /* Pods_ServerDrivenPushNotificationDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A6FAFB2731B96870DBD9EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C624F7CD69584FC1AF4FC50A /* Pods_ServerDrivenPushNotificationDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D40A8C92256E4BB000F971C /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3D40A8CA2256E4D5000F971C /* Page1Controller.xib */,
+				3D40A8CC2256E4E6000F971C /* Page2Controller.xib */,
+				3D40A8CE2256E4F2000F971C /* Page3Controller.xib */,
+				3D40A8D02256E4FD000F971C /* Page4Controller.xib */,
+				3D40A8D22256E582000F971C /* Page1Controller.swift */,
+				3D40A8D42256E58D000F971C /* Page2Controller.swift */,
+				3D40A8D62256E597000F971C /* Page3Controller.swift */,
+				3D40A8D82256E5A2000F971C /* Page4Controller.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		3D7974AB224DAA9D0042E398 /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3D7974AE224DAC540042E398 /* Cells */,
+				3D7974AD224DAAB20042E398 /* Delegates */,
+				3D7974AC224DAAA70042E398 /* Controllers */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		3D7974AC224DAAA70042E398 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D7974A5224DA9500042E398 /* NotificationViewController.swift */,
+				3D7974A9224DAA950042E398 /* NotificationViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3D7974AD224DAAB20042E398 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				3D7974A7224DA99B0042E398 /* NotificationViewController+TableViewDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		3D7974AE224DAC540042E398 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3D7974AF224DAC840042E398 /* NotificationTableViewCell.swift */,
+				3D7974B0224DAC840042E398 /* NotificationTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3D8E6637224C0D2D001E57FD = {
+			isa = PBXGroup;
+			children = (
+				3D8E6642224C0D2D001E57FD /* ServerDrivenPushNotificationDemo */,
+				3D8E6641224C0D2D001E57FD /* Products */,
+				4A8F934557BC0EB8CBFF0CB1 /* Pods */,
+				17A6FAFB2731B96870DBD9EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D8E6641224C0D2D001E57FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D8E6640224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8E6642224C0D2D001E57FD /* ServerDrivenPushNotificationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D40A8C92256E4BB000F971C /* Pages */,
+				3D7974AB224DAA9D0042E398 /* NotificationCenter */,
+				3D8E6658224C0D72001E57FD /* ServerDrivenPushNotificationDemo.entitlements */,
+				3D8E6643224C0D2D001E57FD /* AppDelegate.swift */,
+				3D8E6645224C0D2D001E57FD /* ViewController.swift */,
+				3D8E6647224C0D2D001E57FD /* Main.storyboard */,
+				3D8E664D224C0D30001E57FD /* Assets.xcassets */,
+				3D8E664F224C0D30001E57FD /* LaunchScreen.storyboard */,
+				3D8E6652224C0D30001E57FD /* Info.plist */,
+				3D8E664A224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.xcdatamodeld */,
+			);
+			path = ServerDrivenPushNotificationDemo;
+			sourceTree = "<group>";
+		};
+		4A8F934557BC0EB8CBFF0CB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA7BFCE5760FA9F7166B0056 /* Pods-ServerDrivenPushNotificationDemo.debug.xcconfig */,
+				2E5894899B99D4C09614171E /* Pods-ServerDrivenPushNotificationDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D8E663F224C0D2D001E57FD /* ServerDrivenPushNotificationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8E6655224C0D30001E57FD /* Build configuration list for PBXNativeTarget "ServerDrivenPushNotificationDemo" */;
+			buildPhases = (
+				00C3EC5A68C8586458FB43D0 /* [CP] Check Pods Manifest.lock */,
+				3D8E663C224C0D2D001E57FD /* Sources */,
+				3D8E663D224C0D2D001E57FD /* Frameworks */,
+				3D8E663E224C0D2D001E57FD /* Resources */,
+				4FC6F1EA6A9F6814CF924EDE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerDrivenPushNotificationDemo;
+			productName = ServerDrivenPushNotificationDemo;
+			productReference = 3D8E6640224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D8E6638224C0D2D001E57FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					3D8E663F224C0D2D001E57FD = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3D8E663B224C0D2D001E57FD /* Build configuration list for PBXProject "ServerDrivenPushNotificationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D8E6637224C0D2D001E57FD;
+			productRefGroup = 3D8E6641224C0D2D001E57FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D8E663F224C0D2D001E57FD /* ServerDrivenPushNotificationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D8E663E224C0D2D001E57FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7974B2224DAC840042E398 /* NotificationTableViewCell.xib in Resources */,
+				3D8E6651224C0D30001E57FD /* LaunchScreen.storyboard in Resources */,
+				3D40A8CB2256E4D5000F971C /* Page1Controller.xib in Resources */,
+				3D7974AA224DAA950042E398 /* NotificationViewController.xib in Resources */,
+				3D40A8CF2256E4F2000F971C /* Page3Controller.xib in Resources */,
+				3D8E664E224C0D30001E57FD /* Assets.xcassets in Resources */,
+				3D8E6649224C0D2D001E57FD /* Main.storyboard in Resources */,
+				3D40A8CD2256E4E6000F971C /* Page2Controller.xib in Resources */,
+				3D40A8D12256E4FD000F971C /* Page4Controller.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00C3EC5A68C8586458FB43D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ServerDrivenPushNotificationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC6F1EA6A9F6814CF924EDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ServerDrivenPushNotificationDemo/Pods-ServerDrivenPushNotificationDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ServerDrivenPushNotificationDemo/Pods-ServerDrivenPushNotificationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D8E663C224C0D2D001E57FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7974B1224DAC840042E398 /* NotificationTableViewCell.swift in Sources */,
+				3D40A8D92256E5A2000F971C /* Page4Controller.swift in Sources */,
+				3D7974A8224DA99B0042E398 /* NotificationViewController+TableViewDelegate.swift in Sources */,
+				3D7974A6224DA9500042E398 /* NotificationViewController.swift in Sources */,
+				3D40A8D72256E597000F971C /* Page3Controller.swift in Sources */,
+				3D40A8D52256E58D000F971C /* Page2Controller.swift in Sources */,
+				3D40A8D32256E582000F971C /* Page1Controller.swift in Sources */,
+				3D8E6646224C0D2D001E57FD /* ViewController.swift in Sources */,
+				3D8E6644224C0D2D001E57FD /* AppDelegate.swift in Sources */,
+				3D8E664C224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D8E6647224C0D2D001E57FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8E6648224C0D2D001E57FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D8E664F224C0D30001E57FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8E6650224C0D30001E57FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D8E6653224C0D30001E57FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D8E6654224C0D30001E57FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D8E6656224C0D30001E57FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7BFCE5760FA9F7166B0056 /* Pods-ServerDrivenPushNotificationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ServerDrivenPushNotificationDemo/ServerDrivenPushNotificationDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ServerDrivenPushNotificationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushnotification.pushnotificationdemoxyz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D8E6657224C0D30001E57FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5894899B99D4C09614171E /* Pods-ServerDrivenPushNotificationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ServerDrivenPushNotificationDemo/ServerDrivenPushNotificationDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ServerDrivenPushNotificationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushnotification.pushnotificationdemoxyz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D8E663B224C0D2D001E57FD /* Build configuration list for PBXProject "ServerDrivenPushNotificationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8E6653224C0D30001E57FD /* Debug */,
+				3D8E6654224C0D30001E57FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8E6655224C0D30001E57FD /* Build configuration list for PBXNativeTarget "ServerDrivenPushNotificationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8E6656224C0D30001E57FD /* Debug */,
+				3D8E6657224C0D30001E57FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D8E664A224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D8E664B224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.xcdatamodel */,
+			);
+			currentVersion = 3D8E664B224C0D2D001E57FD /* ServerDrivenPushNotificationDemo.xcdatamodel */;
+			path = ServerDrivenPushNotificationDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D8E6638224C0D2D001E57FD /* Project object */;
+}
